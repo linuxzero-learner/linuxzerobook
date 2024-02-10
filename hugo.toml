@@ -1,0 +1,4 @@
+baseURL = 'https://book.linuxzero.com/'
+languageCode = 'en-us'
+title = 'linuxzerobook'
+theme = "hugo-book"
