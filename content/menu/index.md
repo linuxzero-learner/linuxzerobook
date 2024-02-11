@@ -1,5 +1,6 @@
 ---
 headless: true
+mermaid: true
 ---
 
 - [**Example Site**]({{< relref "/docs/example" >}})
