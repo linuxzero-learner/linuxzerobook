@@ -1,3 +1,6 @@
+---
+mermaid: true
+---
 ## 访问 Linux 文件系统
 
 ### 存储管理概念
@@ -938,3 +941,9 @@ dr-xr-xr-x. 5 root root 4096 Feb  8 22:54 /boot
 dr-xr-xr-x. 5 root root 4096 Feb  8 22:54 /boot
 ```
 
+{{ if .Page.Store.Get "hasMermaid" }}
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+  </script>
+{{ end }}
